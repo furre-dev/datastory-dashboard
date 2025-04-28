@@ -10,6 +10,7 @@ export default async function Home() {
   const { data, error } = await countriesQuery();
 
   if (error) {
+    console.log(error)
     return <ErrorPage />
   }
 
