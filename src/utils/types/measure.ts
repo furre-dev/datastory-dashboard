@@ -1,4 +1,5 @@
 import { MeasureQuery } from "../graphql/gql/graphql";
+import { SelectInputOptions } from "./select";
 
 export type MeasureData = MeasureQuery["cube_cube_M6Lh5is0FtqUhZ"]
 
@@ -10,6 +11,7 @@ export type MeasureDataWithDisplayText = {
   } | null
 }
 
+export type MeasureType = SelectInputOptions
 
 export type MeasrueQueryResponse = {
   data: MeasureData,

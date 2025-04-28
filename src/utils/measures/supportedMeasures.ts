@@ -1,3 +1,5 @@
+import { MeasureType } from "../types/measure"
+
 export type NumberFormats = "thousand" | "million"
 
 export type SelectOptionType = {
@@ -10,7 +12,7 @@ export type SelectOptionType = {
   }
 }
 
-export const supportedMeasureOptions: SelectOptionType[] = [
+export const supportedMeasureOptions: MeasureType[] = [
   {
     label: "Life expectancy",
     value: "life_expectancy",

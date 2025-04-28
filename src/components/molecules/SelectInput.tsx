@@ -15,7 +15,7 @@ export default function SelectInput({
     <div key={inputValues.id} className="flex flex-col gap-2">
       <label className="text-ds-dark font-medium">{inputValues.label}</label>
       <Select
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer !important" }}
         showSearch={inputValues.showSearch}
         loading={loading}
         /* value={alreadySelected[inputValues.selectType]} */
